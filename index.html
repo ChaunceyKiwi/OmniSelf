@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Self-Estimation</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style>
+        .self-estimation {
+            border: dotted;
+            color: rgba(0,0,0,0.2);
+        }
+        
+        .attribute {
+            width: 80%;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="col-xs-4 col-sm-4 col-md-4">
+            <div class="self-estimation">
+                <img src="dancer.gif">
+                <div class="attribute" id="self-controller">
+                    <div class="attribute-name"> Self-controller: </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-success progress-bar-striped" style="width: 40%">
+                            <span>40</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute" id="life-liver">
+                    <div class="attribute-name"> Life-liver: </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-info progress-bar-striped" style="width: 20%">
+                            <span>20</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute" id="body-trainer">
+                    <div class="attribute-name"> Body-trainer: </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-warning progress-bar-striped" style="width: 60%">
+                            <span>60</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="attribute" id="appearance-observer">
+                    <div class="attribute-name"> Appearance-observer: </div>
+                    <div class="progress">
+                        <div class="progress-bar progress-bar-danger progress-bar-striped" style="width: 80%">
+                            <span>80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src= "self_estimation.js"></script>
+</body>
+</html>
